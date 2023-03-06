@@ -1,0 +1,11 @@
+Feature: Bookcategory
+
+
+Background: I should be able to see Homepage
+Given       I Enter Url" http://demo.nopcommerce.com/" in browser
+And         I am on Homepage
+
+Scenerio Outline: I should be able to see top manu tabs on homepage with categories
+
+When    I am on home page
+Then    I should be able to see top manu tabs with "<categories>"
